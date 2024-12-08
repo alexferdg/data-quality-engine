@@ -18,7 +18,7 @@ The release of ChatGPT and similar large language models (LLMs) have highlighted
 
 ### Synthetic data from VLM
 
-`We focus on leveraging synthetic data from vision-language models (VLMs)`, such as [CogVLM2-llama3-chat-19B](https://huggingface.co/THUDM/cogvlm2-llama3-chat-19B), to enhance image captions in existing datasets, specifically [SBU Captioned Photo Dataset](https://huggingface.co/datasets/vicenteor/sbu_captions) a collection of images and their associated captions from Flickr to demostrate scalability. By leveraging the VLM's understanding of both images and text, we can generate captions that are more detailed, informative, or contextually relevant, ultimately improving the quality and diversity of training data for AI models.
+`We focus on leveraging synthetic data from vision-language models (VLMs)`, such as [CogVLM2-llama3-chat-19B](https://huggingface.co/THUDM/cogvlm2-llama3-chat-19B), to enhance image captions in existing datasets, specifically the [1M SBU Captioned Photo Dataset](https://huggingface.co/datasets/vicenteor/sbu_captions) a collection of images and their associated captions from Flickr to demostrate scalability. By leveraging the VLM's understanding of both images and text, we can generate captions that are more detailed, informative, or contextually relevant, ultimately improving the quality and diversity of training data for AI models.
 
 - Results
 
@@ -26,11 +26,11 @@ The release of ChatGPT and similar large language models (LLMs) have highlighted
     
     > Caption for image 2591505632_e6241f1ae7.jpg with URL http://static.flickr.com/3122/2591505632_e6241f1ae7.jpg: This image showcases a large, light-colored wall with a textured surface that resembles a concrete or stone facade. The wall is adorned with a vertically aligned, metallic sign that reads "TIFFANY & CO." Below the sign, on the left side of the image, there's a small, dark-colored object that appears to be a water bottle. The overall setting suggests an urban environment, possibly outside a high-end retail store. The mood conveyed by the image is one of minimalism and modern design. 
     
-    > Original caption: A bottle in the main door of Tiffany &amp;amp; Co.
+    > Original caption: A bottle in the main door of Tiffany & Co.
 
 ### Classifier
 
-Upon obtaining the synthetic captions from the VLM, `we checked our assumption that these generated captions are more accurate than the originals`, fetched from the [SBU Captioned Photo Dataset](https://huggingface.co/datasets/vicenteor/sbu_captions), by performing a caption quality classification. We decided to guide our classification using the [CLIP](https://github.com/openai/CLIP) (Contrastive Language-Image Pre-Training) model, a neural network trained on a variety of (image, text) pairs. It can interpret natural language instructions to identify the most relevant text snippet for a given image, without requiring direct optimization for that specific task. By addressing the cosine similarity between the captions predicted by CLIP and our generated captions, we can discern if our captions are richer in terms of information retained from the image. Specifically, we compute the similarity between the image embedding and the embedding of the generated caption. This allows us to evaluate how well our captions align with CLIP’s predictions, helping us determine whether the generated captions effectively capture the information present in the image.
+Upon obtaining the synthetic captions from the VLM, `we checked our assumption that these generated captions are more accurate than the originals`, fetched from the [1M SBU Captioned Photo Dataset](https://huggingface.co/datasets/vicenteor/sbu_captions), by performing a caption quality classification. We decided to guide our classification using the [CLIP](https://github.com/openai/CLIP) (Contrastive Language-Image Pre-Training) model, a neural network trained on a variety of (image, text) pairs. It can interpret natural language instructions to identify the most relevant text snippet for a given image, without requiring direct optimization for that specific task. By addressing the cosine similarity between the captions predicted by CLIP and our generated captions, we can discern if our captions are richer in terms of information retained from the image. Specifically, we compute the similarity between the image embedding and the embedding of the generated caption. This allows us to evaluate how well our captions align with CLIP’s predictions, helping us determine whether the generated captions effectively capture the information present in the image.
 
 - Results
 
@@ -85,13 +85,13 @@ Additionally, we use a `vector database to embed the caption for each image`, fa
 All computations were performed on a single `1x A100 SXM4 80GB GPU`. As a relevant metrics:
 
 - When we used CogVLM2-19B to generated the synthetic captions:
-  - Each caption took 1.05 seconds to complete (2h 55min per 10_000 captions). 
+  - Each caption took 1.05 seconds to complete (2h 55min per 10,000 captions). 
   - Besides, all batches processed for Qdrant DB in 110.95 seconds.
 - When we used InterVL2-8B to generated the synthetic captions:
-  - Each caption took 0.45 seconds to complete (1h 15min per 10_000 captions). 
+  - Each caption took 0.45 seconds to complete (1h 15min per 10,000 captions). 
   - Besides, all batches processed for Qdrant DB in 116.40 seconds.
 
-To wrap up, the InterVL2-8B model demonstrated a 57.14% improvement in time efficiency with this setup compared to CogVLM2-19B, along with approximately 17% improvement per threshold at 70%, 80%, and 90% when comparing each model's performance against user-generated captions from the [SBU Captioned Photo Dataset](https://huggingface.co/datasets/vicenteor/sbu_captions) .
+To wrap up, the InterVL2-8B model demonstrated a 57.14% improvement in time efficiency with this setup compared to CogVLM2-19B, along with approximately 17% improvement per threshold at 70%, 80%, and 90% when comparing each model's performance against user-generated captions from the [1M SBU Captioned Photo Dataset](https://huggingface.co/datasets/vicenteor/sbu_captions) .
 
 ## How to use
 

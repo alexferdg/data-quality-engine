@@ -13,24 +13,24 @@ The `captioning-data-engine` directory hosts an investigation into the generatio
 
 [Sample Overview](https://alexferdg.github.io/data-quality-engine/)
 
- [Visit the Synthetic Data Research Code Section](https://github.com/alexferdg/data-quality-engine/tree/main/captioning-data-engine) to discover:
+[Visit the Synthetic Data Research Code Section](https://github.com/alexferdg/data-quality-engine/tree/main/captioning-data-engine) to discover:
 
 📘 **Why Synthetic Data?**
 
 - Training models is costly. Quality data is the secret to cutting costs while achieving exceptional performance.
-- Learn how **synthetic captions** from VLMs boost datasets like the [SBU Captioned Photo Dataset](https://huggingface.co/datasets/vicenteor/sbu_captions).
+- Learn how **synthetic captions** from VLMs boost datasets like the [1M SBU Captioned Photo Dataset](https://huggingface.co/datasets/vicenteor/sbu_captions).
 
 🛠️ **How We Do It:**
 
 - Using **state-of-the-art VLMs** like [CogVLM2-llama3-chat-19B](https://huggingface.co/THUDM/cogvlm2-llama3-chat-19B) and [InternVL2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B) to craft rich, detailed captions.
-- Leveraging the [lmdeploy toolkit](https://github.com/InternLM/lmdeploy) to accelerate inference, enabling efficient processing of large datasets with high throughput.
-- Validating captions with **CLIP-based classification** to ensure alignment with image content.
+- Leveraging the [lmdeploy toolkit](https://github.com/InternLM/lmdeploy) to accelerate inference, enabling high-throughput processing of large datasets.
+- Validating captions with CLIP-based classification to ensure alignment with image content.
 
 📊 **What We’ve Achieved:**
 
 - **Better Captions:** Significant improvements in alignment scores for synthetic captions over original ones.
 - **Smarter Datasets:** Enhanced querying, deduplication, and dataset creation with **vector databases**.
-- **Shared Resources:** A database of 30_000 synthetic image-caption pairs is made available in the databases folder for further exploration and use via the [Qdrant database](https://qdrant.tech).
+- **Shared Resources:** A [Qdrant database](https://qdrant.tech) of 30,000 synthetic image-caption pairs is made available in the databases folder for further exploration and use.
 
 🖥️ **Hardware**
 
