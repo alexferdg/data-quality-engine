@@ -1,0 +1,88 @@
+2024-08-28 09:49:52,314 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:49:52,314 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:49:52,314 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:49:52,314 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:49:52,318 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:49:52,318 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:49:52,318 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:49:52,318 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:49:52,557 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:49:52,557 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:49:52,557 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:49:52,557 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:49:53,893 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.modeling_internvl_chat - INFO - num_image_token: 256
+2024-08-28 09:49:53,893 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.modeling_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:50:40,247 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:50:40,247 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:50:40,247 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:50:40,248 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:50:40,438 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:50:40,438 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:50:40,438 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:50:40,438 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:50:40,442 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:50:40,442 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:50:40,442 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:50:40,442 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:50:40,445 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:50:40,445 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:50:40,445 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:50:40,446 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:50:40,449 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:50:40,449 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:50:40,449 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:50:40,449 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:50:40,452 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:50:40,452 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:50:40,452 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:50:40,452 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:50:40,456 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - vision_select_layer: -1
+2024-08-28 09:50:40,456 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - ps_version: v2
+2024-08-28 09:50:40,456 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - min_dynamic_patch: 1
+2024-08-28 09:50:40,456 - transformers_modules.357996b2cba121dce8748498968e9fddcc62e386.configuration_internvl_chat - INFO - max_dynamic_patch: 12
+2024-08-28 09:50:45,416 - httpx - INFO - HTTP Request: DELETE http://localhost:6333/collections/InternVL2-8B_captions "HTTP/1.1 200 OK"
+2024-08-28 09:50:45,611 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions "HTTP/1.1 200 OK"
+2024-08-28 09:50:45,612 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2024-08-28 09:50:45,612 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2024-08-28 09:50:47,884 - datasets.fingerprint - WARNING - Parameter 'function'=<function generate_caption_batch at 0x7f966a6b49d0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2024-08-28 09:50:49,080 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 09:58:27,782 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 10:05:57,751 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 10:13:29,797 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 10:21:00,928 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 10:28:20,556 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 10:35:46,321 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 10:43:13,579 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 10:50:37,233 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 10:58:00,554 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-28 11:05:21,687 - __main__ - INFO - Processed batch 1 of 10 to Qdrant DB.
+2024-08-28 11:05:21,690 - __main__ - INFO - Processed batch 2 of 10 to Qdrant DB.
+2024-08-28 11:05:21,693 - __main__ - INFO - Processed batch 3 of 10 to Qdrant DB.
+2024-08-28 11:05:21,699 - __main__ - INFO - Processed batch 4 of 10 to Qdrant DB.
+2024-08-28 11:05:21,702 - __main__ - INFO - Processed batch 5 of 10 to Qdrant DB.
+2024-08-28 11:05:21,706 - __main__ - INFO - Processed batch 6 of 10 to Qdrant DB.
+2024-08-28 11:05:21,709 - __main__ - INFO - Processed batch 7 of 10 to Qdrant DB.
+2024-08-28 11:05:21,719 - __main__ - INFO - Processed batch 8 of 10 to Qdrant DB.
+2024-08-28 11:05:21,723 - __main__ - INFO - Processed batch 9 of 10 to Qdrant DB.
+2024-08-28 11:05:21,732 - __main__ - INFO - Processed batch 10 of 10 to Qdrant DB.
+2024-08-28 11:07:14,733 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:14,736 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:15,389 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:15,391 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:15,996 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:15,997 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:16,233 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:16,235 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:16,458 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:16,459 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:16,692 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:16,698 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:16,833 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:16,834 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:16,895 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:16,896 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:17,988 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:17,989 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:18,064 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/InternVL2-8B_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-28 11:07:18,066 - __main__ - INFO - Captions upserted successfully!
+2024-08-28 11:07:18,083 - __main__ - INFO - All batches processed for Qdrant DB in 116.40 seconds.
