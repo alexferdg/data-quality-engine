@@ -1,0 +1,44 @@
+2024-08-28 11:44:07,572 - root - WARNING - Unable to close http connection. Connection was interrupted on the server side
+2024-08-28 11:45:08,222 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/InternVL2-8B_captions/points/count "HTTP/1.1 200 OK"
+2024-08-28 11:45:08,223 - __main__ - INFO - Total points in the collection intervl2-8B: 10000
+2024-08-28 11:45:08,228 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/InternVL2-8B_captions/points/count "HTTP/1.1 200 OK"
+2024-08-28 11:45:08,228 - __main__ - INFO - Total points in the collection cogvlm2-19B: 10000
+2024-08-28 11:45:08,228 - __main__ - INFO - Both collections have the same number of entries.
+2024-08-28 11:45:08,458 - root - WARNING - Unable to close http connection. Connection was interrupted on the server side
+2024-08-28 11:46:09,743 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/InternVL2-8B_captions/points/count "HTTP/1.1 200 OK"
+2024-08-28 11:46:09,745 - __main__ - INFO - Total points in the collection intervl2-8B: 10000
+2024-08-28 11:46:09,749 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/InternVL2-8B_captions/points/count "HTTP/1.1 200 OK"
+2024-08-28 11:46:09,749 - __main__ - INFO - Total points in the collection cogvlm2-19B: 10000
+2024-08-28 11:46:09,749 - __main__ - INFO - Both collections have the same number of entries.
+2024-08-28 11:46:09,769 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/InternVL2-8B_captions/points "HTTP/1.1 200 OK"
+2024-08-28 11:46:11,701 - httpx - INFO - HTTP Request: POST http://localhost:6333/collections/CogVLM2-19B_captions/points "HTTP/1.1 200 OK"
+2024-08-28 11:46:12,164 - __main__ - INFO - Processed 0/999 entries.
+2024-08-28 11:46:12,164 - __main__ - INFO - Image URL: http://static.flickr.com/2389/2249239842_2f035af791.jpg
+2024-08-28 11:46:12,164 - __main__ - INFO - Label probs:, [[0.6724 0.3276]]
+2024-08-28 11:46:26,670 - __main__ - INFO - Processed 100/999 entries.
+2024-08-28 11:46:26,670 - __main__ - INFO - Image URL: http://static.flickr.com/3273/3073317781_a126766168.jpg
+2024-08-28 11:46:26,670 - __main__ - INFO - Label probs:, [[0.314 0.686]]
+2024-08-28 11:46:40,909 - __main__ - INFO - Processed 200/999 entries.
+2024-08-28 11:46:40,909 - __main__ - INFO - Image URL: http://static.flickr.com/2075/2472616338_8f05c3a9e0.jpg
+2024-08-28 11:46:40,909 - __main__ - INFO - Label probs:, [[0.0637 0.9365]]
+2024-08-28 11:46:54,741 - __main__ - INFO - Processed 300/999 entries.
+2024-08-28 11:46:54,741 - __main__ - INFO - Image URL: http://static.flickr.com/2077/2231309830_9209500ab3.jpg
+2024-08-28 11:46:54,741 - __main__ - INFO - Label probs:, [[0.9194 0.0804]]
+2024-08-28 11:47:08,641 - __main__ - INFO - Processed 400/999 entries.
+2024-08-28 11:47:08,641 - __main__ - INFO - Image URL: http://static.flickr.com/3175/2695468229_0cabd52c5d.jpg
+2024-08-28 11:47:08,642 - __main__ - INFO - Label probs:, [[0.9937  0.00649]]
+2024-08-28 11:47:22,711 - __main__ - INFO - Processed 500/999 entries.
+2024-08-28 11:47:22,711 - __main__ - INFO - Image URL: http://static.flickr.com/5170/5374942206_ea360b83f9.jpg
+2024-08-28 11:47:22,711 - __main__ - INFO - Label probs:, [[0.585  0.4148]]
+2024-08-28 11:47:36,791 - __main__ - INFO - Processed 600/999 entries.
+2024-08-28 11:47:36,791 - __main__ - INFO - Image URL: http://static.flickr.com/30/103533730_e2c4668279.jpg
+2024-08-28 11:47:36,791 - __main__ - INFO - Label probs:, [[0.1009 0.899 ]]
+2024-08-28 11:47:51,026 - __main__ - INFO - Processed 700/999 entries.
+2024-08-28 11:47:51,026 - __main__ - INFO - Image URL: http://static.flickr.com/1134/1321961173_7caf9e7063.jpg
+2024-08-28 11:47:51,026 - __main__ - INFO - Label probs:, [[0.923   0.07697]]
+2024-08-28 11:48:05,009 - __main__ - INFO - Processed 800/999 entries.
+2024-08-28 11:48:05,010 - __main__ - INFO - Image URL: http://static.flickr.com/3345/3491341167_dd11b34012.jpg
+2024-08-28 11:48:05,010 - __main__ - INFO - Label probs:, [[0.967   0.03308]]
+2024-08-28 11:48:19,395 - __main__ - INFO - Processed 900/999 entries.
+2024-08-28 11:48:19,395 - __main__ - INFO - Image URL: http://static.flickr.com/2639/3987383677_30c8a1dd7b.jpg
+2024-08-28 11:48:19,395 - __main__ - INFO - Label probs:, [[0.907  0.0927]]

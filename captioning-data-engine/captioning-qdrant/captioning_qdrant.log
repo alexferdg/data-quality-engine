@@ -1,0 +1,46 @@
+2024-08-19 12:23:01,368 - httpx - INFO - HTTP Request: DELETE http://localhost:6333/collections/image_captions "HTTP/1.1 200 OK"
+2024-08-19 12:23:01,615 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions "HTTP/1.1 200 OK"
+2024-08-19 12:23:01,616 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2024-08-19 12:23:01,616 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2024-08-19 12:26:40,573 - datasets.fingerprint - WARNING - Parameter 'function'=<function generate_caption_batch at 0x7f3b73bfdd80> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2024-08-19 12:26:41,489 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 12:44:15,773 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 13:01:46,626 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 13:19:14,768 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 13:36:42,986 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 13:54:07,338 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 14:11:36,578 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 14:29:07,378 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 14:46:34,421 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 15:04:06,908 - __main__ - INFO - Generating captions for 1000 images...
+2024-08-19 15:21:37,908 - __main__ - INFO - Processed batch 1 of 10 to Qdrant DB.
+2024-08-19 15:21:37,913 - __main__ - INFO - Processed batch 2 of 10 to Qdrant DB.
+2024-08-19 15:21:37,919 - __main__ - INFO - Processed batch 3 of 10 to Qdrant DB.
+2024-08-19 15:21:37,922 - __main__ - INFO - Processed batch 4 of 10 to Qdrant DB.
+2024-08-19 15:21:37,927 - __main__ - INFO - Processed batch 5 of 10 to Qdrant DB.
+2024-08-19 15:21:37,930 - __main__ - INFO - Processed batch 6 of 10 to Qdrant DB.
+2024-08-19 15:21:37,937 - __main__ - INFO - Processed batch 7 of 10 to Qdrant DB.
+2024-08-19 15:21:37,943 - __main__ - INFO - Processed batch 8 of 10 to Qdrant DB.
+2024-08-19 15:21:37,947 - __main__ - INFO - Processed batch 9 of 10 to Qdrant DB.
+2024-08-19 15:21:37,950 - __main__ - INFO - Processed batch 10 of 10 to Qdrant DB.
+2024-08-19 15:23:25,175 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:25,178 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:27,021 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:27,023 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:27,458 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:27,459 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:27,466 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:27,467 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:27,652 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:27,655 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:27,802 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:27,804 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:28,218 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:28,219 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:28,368 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:28,372 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:28,681 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:28,689 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:28,835 - httpx - INFO - HTTP Request: PUT http://localhost:6333/collections/image_captions/points?wait=true "HTTP/1.1 200 OK"
+2024-08-19 15:23:28,836 - __main__ - INFO - Captions upserted successfully!
+2024-08-19 15:23:28,856 - __main__ - INFO - All batches processed for Qdrant DB in 110.95 seconds.
